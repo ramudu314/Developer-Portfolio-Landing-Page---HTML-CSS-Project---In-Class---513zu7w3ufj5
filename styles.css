@@ -104,15 +104,4 @@
       .buttom {
           flex-direction: column;
       }
-  }.hero-img {
-    position: absolute;
-    width: 100%;
-   z-index: -1;
-}
-.hero-section {
-    display: flex;
-    position: relative;
-    font-weight: 400;
-    justify-content: center;
-
-}
+  }
