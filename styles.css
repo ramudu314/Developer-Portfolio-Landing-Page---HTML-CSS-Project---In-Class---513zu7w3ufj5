@@ -66,6 +66,7 @@
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     margin: 50px auto;
     gap: 20px;
+    justify-content: center;
 }
 .card-item {
     max-width: 340px;
@@ -82,7 +83,7 @@
   }
   .buttom {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       padding: 30px;
   }
   .contact {
@@ -92,11 +93,11 @@
   .about {
       background-color: red;
       color: white;
+      padding: 1em;
   }
   @media (max-width: 786px) {
       .hero-section {
-          min-height: 50v;
-      }
+          min-height: 50vh;
       }
       .black-box {
           font-size: 24px;
